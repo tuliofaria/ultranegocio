@@ -35,10 +35,9 @@ class AppController extends Controller {
 		if($this->params["prefix"]=="vender"){
 			// checar se ele está logado
 			if(!$this->Session->check("usuario")){
+				$this->Session->write("redir", $this->request->url);
 				$this->redirect("/usuarios/entrar");
 			}
-		}else{
-			echo "nao precisa estar logado";
 		}
 	}
 }

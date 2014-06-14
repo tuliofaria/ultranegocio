@@ -36,6 +36,7 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="<? echo $this->Html->url("/anuncios") ?>"">Comprar</a></li>
             <li><a href="<? echo $this->Html->url("/vender/anuncios/novo") ?>">Vender</a></li>
+            <li><a href="<? echo $this->Html->url("/usuarios/logout") ?>">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

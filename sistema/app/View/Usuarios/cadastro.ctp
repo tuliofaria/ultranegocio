@@ -6,3 +6,8 @@
 	<? echo $this->Form->input("senha", array("type"=>"password")) ?>
 	<? echo $this->Form->input("senha2", array("label"=>"Confirmar senha", "type"=>"password")) ?>
 <? echo $this->Form->end("Cadastrar") ?>
+
+
+<? if(isset($url)){ ?>
+	<a href="<? echo $this->Html->url($url) ?>">ativar</a>
+<? } ?>
