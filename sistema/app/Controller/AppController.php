@@ -31,4 +31,14 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+	public function beforeFilter(){
+		if($this->params["prefix"]=="vender"){
+			// checar se ele está logado
+			if(!$this->Session->check("usuario")){
+				$this->redirect("/usuarios/entrar");
+			}
+		}else{
+			echo "nao precisa estar logado";
+		}
+	}
 }
