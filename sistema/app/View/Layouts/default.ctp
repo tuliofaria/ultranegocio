@@ -29,12 +29,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">UltraNegócio.com</a>
+          <a class="navbar-brand" href="<? echo $this->Html->url("/") ?>">UltraNegócio.com</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="<? echo $this->Html->url("/anuncios") ?>"">Comprar</a></li>
+            <li class="active"><a href="<? echo $this->Html->url("/") ?>">Home</a></li>
+            <li><a href="<? echo $this->Html->url("/anuncios") ?>">Comprar</a></li>
             <li><a href="<? echo $this->Html->url("/vender/anuncios/novo") ?>">Vender</a></li>
             <li><a href="<? echo $this->Html->url("/usuarios/logout") ?>">Logout</a></li>
           </ul>

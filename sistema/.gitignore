@@ -1,6 +1,6 @@
 # User specific & automatically generated files #
 #################################################
-
+./app/tmp/*
 # OS generated files #
 ######################
 .DS_Store
