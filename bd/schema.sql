@@ -35,6 +35,8 @@ CREATE  TABLE IF NOT EXISTS `ultranegocio`.`anuncios` (
   `peso` FLOAT NULL ,
   `cep_origem` VARCHAR(45) NULL ,
   `usuario_id` INT NOT NULL ,
+  `keywords` TEXT NULL ,
+  `description` TEXT NULL ,
   PRIMARY KEY (`id`) ,
   INDEX `fk_anuncios_usuarios1_idx` (`usuario_id` ASC) ,
   CONSTRAINT `fk_anuncios_usuarios1`
@@ -54,6 +56,7 @@ CREATE  TABLE IF NOT EXISTS `ultranegocio`.`imagens` (
   `titulo` VARCHAR(250) NULL ,
   `descricao` TEXT NULL ,
   `anuncio_id` INT NOT NULL ,
+  `alt` TEXT NULL ,
   PRIMARY KEY (`id`) ,
   INDEX `fk_imagens_anuncios_idx` (`anuncio_id` ASC) ,
   CONSTRAINT `fk_imagens_anuncios`

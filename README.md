@@ -11,7 +11,9 @@ UltraNegócio
 - Rodrigo / Pedro : RSS / RSS de destaque / Pag Seguro / equivalente
 - Elysson: API REST
 
-
-TODO TULIO:
-- Alteracoes: CEP anuncio / peso
-- Destaques
+Alterações já realizadas
+============
+- Já foi realizada a adição de fotos (apenas formato jpeg e sem a geração de miniaturas)
+- O banco está com o sql no arquivo schema.sql
+- Já é possível visualizar os anúncios, simples
+- Já foi criado a tabela para destaques (com campos para o PagSeguro (transaction_id e situação))
