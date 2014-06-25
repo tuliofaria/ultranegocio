@@ -1512,3 +1512,483 @@ Request URL: /ultranegocio/sistema/js/bootstrap.min.js
 Stack Trace:
 #0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-06-24 23:31:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:31:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:31:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:31:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:31:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:31:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:32:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:32:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:32:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:32:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:32:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:32:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:32:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:33:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:52:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:52:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:52:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:52:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:52:57 Error: [SocketException] SMTP Error: 550 5.3.4 Requested action not taken; To continue sending messages, please sign in to your account.
+Request URL: /ultranegocio/sistema/usuarios/cadastro
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\SmtpTransport.php(310): SmtpTransport->_smtpSend('From: UltraNego...')
+#1 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\SmtpTransport.php(98): SmtpTransport->_sendData()
+#2 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\CakeEmail.php(1130): SmtpTransport->send(Object(CakeEmail))
+#3 C:\xampp\htdocs\ultranegocio\sistema\app\Controller\UsuariosController.php(49): CakeEmail->send()
+#4 [internal function]: UsuariosController->cadastro()
+#5 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#6 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-06-24 23:52:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:55:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:56:13 Error: [SocketException] SMTP Error: 550 5.3.4 Requested action not taken; To continue sending messages, please sign in to your account.
+Request URL: /ultranegocio/sistema/usuarios/cadastro
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\SmtpTransport.php(310): SmtpTransport->_smtpSend('From: "ultraneg...')
+#1 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\SmtpTransport.php(98): SmtpTransport->_sendData()
+#2 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\CakeEmail.php(1130): SmtpTransport->send(Object(CakeEmail))
+#3 C:\xampp\htdocs\ultranegocio\sistema\app\Controller\UsuariosController.php(49): CakeEmail->send()
+#4 [internal function]: UsuariosController->cadastro()
+#5 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#6 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-06-24 23:56:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:56:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:56:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:56:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:56:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:56:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 23:57:07 Error: [SocketException] SMTP Error: 550 5.3.4 Requested action not taken; To continue sending messages, please sign in to your account.
+Request URL: /ultranegocio/sistema/usuarios/cadastro
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\SmtpTransport.php(310): SmtpTransport->_smtpSend('From: "ultraneg...')
+#1 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\SmtpTransport.php(98): SmtpTransport->_sendData()
+#2 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Network\Email\CakeEmail.php(1130): SmtpTransport->send(Object(CakeEmail))
+#3 C:\xampp\htdocs\ultranegocio\sistema\app\Controller\UsuariosController.php(49): CakeEmail->send()
+#4 [internal function]: UsuariosController->cadastro()
+#5 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#6 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-06-24 23:57:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:00:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:01:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:01:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:03:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:05:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:06:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:06:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:06:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:07:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:09:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:17:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:17:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:19:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:19:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 00:19:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

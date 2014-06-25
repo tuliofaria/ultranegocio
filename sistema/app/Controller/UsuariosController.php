@@ -34,12 +34,12 @@ class UsuariosController extends AppController {
 	public function cadastro() {
 		if($this->request->is("post")){
 			if($this->Usuario->save($this->data)){
-				/*
+				
 				App::uses("CakeEmail", "Network/Email");
 				$Email = new CakeEmail();
 				$Email->config('smtp');
 				$Email->template('boas_vindas', 'padrao');
-				$Email->from(array("tuliofaria@gmail.com"=>"UltraNegocio"));
+				$Email->from(array("ultranegocio@outlook.com"=>"ultranegocio.com"));
 				$Email->to(array(
 						$this->data["Usuario"]["email"]=>
 							$this->data["Usuario"]["nome"]
@@ -47,7 +47,7 @@ class UsuariosController extends AppController {
 				$Email->subject("Confirme seu cadastro");
 				$Email->viewVars(array("nome"=>$this->data["Usuario"]["nome"]));
 				$Email->send();
-				*/
+				
 				$id = $this->Usuario->id;
 				$time = time();
 				$check = sha1("ul".$id.$time."tra");
