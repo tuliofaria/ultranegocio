@@ -1,6 +1,8 @@
 <?php
 class AnunciosController extends AppController {
-	public $uses = array("Anuncio", "Imagem");
+
+	/* Variável que define quais classes Modelo o Controller irá acessar */
+	public $uses = array("Anuncio", "Imagem", "Video");
 
 	public function index(){
 		$this->set("anuncios", $this->paginate("Anuncio"));
@@ -13,7 +15,11 @@ class AnunciosController extends AppController {
 		if($this->request->is("post")){
 			$this->request->data["Anuncio"]["usuario_id"] = $this->Session->read("usuario.Usuario.id");
 			if($this->Anuncio->save($this->data)){
+
+				/* Inserir novo vídeo */
+				$this->redirect("/vender/anuncios/video/".$this->Anuncio->id);
 				$this->redirect("/vender/anuncios/fotos/".$this->Anuncio->id);
+				
 			}
 		}
 	}
@@ -29,6 +35,18 @@ class AnunciosController extends AppController {
 		}
 		$this->set("imagens", $this->Imagem->find("all", array("conditions"=>array("Imagem.anuncio_id"=>$id))));
 	}
+
+	/* Adicionar um vídeo ao anúncio */
+	public function vender_video($id){
+		if($this->request->is("post")){
+			$dados["Video"] = $this->data["Anuncio"];
+			$dados["Video"]["anuncio_id"] = $id;
+
+			/* Chama o método que realiza a pesquisa de um vídeo no YouTube */
+			$this->Video->pesquisar_video($dados["Video"]["pesquisar"]);
+		}
+	}
+
 	public function vender_excluirfoto($id, $idA){
 		$this->Imagem->delete($id);
 		unlink(WWW_ROOT."img".DS."fotos".DS.$id.".jpg");
