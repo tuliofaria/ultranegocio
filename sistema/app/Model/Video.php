@@ -1,0 +1,69 @@
+<?php
+	class Video extends AppModel{
+
+		/* Variável que define o nome da tabela do banco de dados correspondente a esta classe Modelo */
+		public $useTable = "videos";
+
+		/* Variável que define as validações que serão feitas automaticamente antes da persistência dos dados */
+		/*public $validate = array(
+			"pesquisar"=>array(
+				"pesquisaNaoVazia"=>array(
+					"rule"=>"notEmpty",
+					"message"=>"Por favor, entre com a pesquisa do vídeo."
+				)
+			),
+		);*/
+
+
+		/**
+		Método que realiza a busca de um vídeo no YouTube
+		*/
+		public function pesquisar_video($pesquisa){
+			//Chamando os serviços necessários
+		  require_once 'Google/Client.php';
+		  require_once 'Google/Service/YouTube.php';
+
+		  //Key registrada no google developer para ter acesso aos recursos da API
+		  $DEVELOPER_KEY = 'AIzaSyAR5Zr8-Jl4i9wjD7JGuhxzfMXRe_usADA';
+
+		  $client = new Google_Client();
+		  $client->setDeveloperKey($DEVELOPER_KEY);
+
+		  //Cria o objeto para fazer as requisicoes para a API
+		  $youtube = new Google_Service_Youtube($client);
+
+		  try{
+		  		//Chamada do metodo search.list para pegar os resultados do campo de busca.
+		  	$searchResponse = $youtube->search->listSearch('id,snippet', array(
+		  		'q' => $pesquisa,
+		  		'maxResults' => 10,
+		  	));
+
+		  	$videos = '';
+
+		  	//Coloca os resultados na lista apropriada e mostra os resultado
+		  	foreach ($searchResponse['items'] as $searchResult) {
+		  		switch ($searchResult['id']['kind']) {
+		  			case 'youtube#video':
+		  				$videos.=sprintf('<li>%s</li>', "<a href=https://www.youtube.com/embed/".$searchResult['id']['videoId']." target=search_iframe>".$searchResult['snippet']['title']."</a>");
+		  				$videoID = $searchResult['id']['videoId'];
+		  				$videos.="<input type=\"radio\" name=\"videosEscolhidos[]\" value=\"$videoID\"/>";
+		  				break;
+		  			
+		  			default:
+		  				
+		  				break;
+		  		}
+		  	}
+			
+			echo $videos;
+		  } catch (Google_ServiceException $e) {
+		    $htmlBody .= sprintf('<p>A service error occurred: <code>%s</code></p>',
+		      htmlspecialchars($e->getMessage()));
+		  } catch (Google_Exception $e) {
+		    $htmlBody .= sprintf('<p>An client error occurred: <code>%s</code></p>',
+		      htmlspecialchars($e->getMessage()));
+		  }
+			}
+	}
+	
