@@ -39,15 +39,20 @@
 		  		'maxResults' => 10,
 		  	));
 
-		  	$videos = '';
-
 		  	//Coloca os resultados na lista apropriada e mostra os resultado
 		  	foreach ($searchResponse['items'] as $searchResult) {
 		  		switch ($searchResult['id']['kind']) {
 		  			case 'youtube#video':
-		  				$videos.=sprintf('<li>%s</li>', "<a href=https://www.youtube.com/embed/".$searchResult['id']['videoId']." target=search_iframe>".$searchResult['snippet']['title']."</a>");
+
+		  				//ID do Vídeo do YouTube
 		  				$videoID = $searchResult['id']['videoId'];
-		  				$videos.="<input type=\"radio\" name=\"videosEscolhidos[]\" value=\"$videoID\"/>";
+
+		  				//Link que será usado no HTML para acessar o vídeo do YouTube
+		  				$videoLink = "<a href=https://www.youtube.com/embed/".$searchResult['id']['videoId']." target=search_iframe>".$searchResult['snippet']['title']."</a>";
+
+		  				//Cria uma lista com os vídeos da pesquisa, seus IDs e o link
+		  				$listaVideos[$videoID] = $videoLink;
+
 		  				break;
 		  			
 		  			default:
@@ -56,7 +61,6 @@
 		  		}
 		  	}
 			
-			echo $videos;
 		  } catch (Google_ServiceException $e) {
 		    $htmlBody .= sprintf('<p>A service error occurred: <code>%s</code></p>',
 		      htmlspecialchars($e->getMessage()));
@@ -64,6 +68,10 @@
 		    $htmlBody .= sprintf('<p>An client error occurred: <code>%s</code></p>',
 		      htmlspecialchars($e->getMessage()));
 		  }
-			}
+
+		  return $listaVideos;
+		}
+
+
 	}
 	

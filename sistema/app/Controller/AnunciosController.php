@@ -38,12 +38,29 @@ class AnunciosController extends AppController {
 
 	/* Adicionar um vídeo ao anúncio */
 	public function vender_video($id){
-		if($this->request->is("post")){
+		$dados = array();
+			
+		if($this->request->is("post") && isset($this->data["Anuncio"]["pesquisar"])){
+
+			/* Usuário digitou uma palavra para pesquisqr por um vídeo*/
 			$dados["Video"] = $this->data["Anuncio"];
 			$dados["Video"]["anuncio_id"] = $id;
 
 			/* Chama o método que realiza a pesquisa de um vídeo no YouTube */
-			$this->Video->pesquisar_video($dados["Video"]["pesquisar"]);
+			$videos = $this->Video->pesquisar_video($dados["Video"]["pesquisar"]);
+			$this->set("videos", $videos);
+		}
+
+		if($this->request->is("post") && isset($dados["Video"]["videos"])){
+
+			/* Usuário escolheu um vídeo para salvar no anúncio*/
+
+			$dados["Video"] = $this->data["Anuncio"];
+			$dados["Video"]["anuncio_id"] = $id;
+			$dados["Video"]["url"] = $dados["Video"]["videos"];
+
+			/*Salva no banco de dados*/
+			$this->Video->save($dados);
 		}
 	}
 
