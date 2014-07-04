@@ -17,9 +17,7 @@ class AnunciosController extends AppController {
 			if($this->Anuncio->save($this->data)){
 
 				/* Inserir novo vídeo */
-				$this->redirect("/vender/anuncios/video/".$this->Anuncio->id);
-				$this->redirect("/vender/anuncios/fotos/".$this->Anuncio->id);
-				
+				$this->redirect("/vender/anuncios/video/".$this->Anuncio->id);	
 			}
 		}
 	}
@@ -51,7 +49,7 @@ class AnunciosController extends AppController {
 			$this->set("videos", $videos);
 		}
 
-		if($this->request->is("post") && isset($dados["Video"]["videos"])){
+		if($this->request->is("post") && isset($this->data["Anuncio"]["pesquisar"]) == false){
 
 			/* Usuário escolheu um vídeo para salvar no anúncio*/
 
@@ -61,7 +59,21 @@ class AnunciosController extends AppController {
 
 			/*Salva no banco de dados*/
 			$this->Video->save($dados);
+
+			/* Redireciona para a página de salvar fotos */
+			$this->redirect("/vender/anuncios/fotos/".$id);
 		}
+	}
+
+	public function vender_semVideo($id){
+		if($this->request->is("post")){
+
+				/* Inserir imagem sem video */
+
+				
+				$this->redirect("/vender/anuncios/fotos/".$id);
+
+		}	
 	}
 
 	public function vender_excluirfoto($id, $idA){
