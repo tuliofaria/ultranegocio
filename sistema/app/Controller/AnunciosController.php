@@ -38,6 +38,8 @@ class AnunciosController extends AppController {
 	public function vender_video($id){
 		$dados = array();
 			
+		$this->set("anuncioId", $id);
+
 		if($this->request->is("post") && isset($this->data["Anuncio"]["pesquisar"])){
 
 			/* Usuário digitou uma palavra para pesquisqr por um vídeo*/
@@ -65,15 +67,15 @@ class AnunciosController extends AppController {
 		}
 	}
 
-	public function vender_semVideo($id){
+	public function vender_semVideo(){
 		if($this->request->is("post")){
+			$this->request->data["Anuncio"]["usuario_id"] = $this->Session->read("usuario.Usuario.id");
+			if($this->Anuncio->save($this->data)){
 
 				/* Inserir imagem sem video */
-
-				
-				$this->redirect("/vender/anuncios/fotos/".$id);
-
-		}	
+				$this->redirect("/vender/anuncios/fotos/".$anuncioId);
+			}
+		}
 	}
 
 	public function vender_excluirfoto($id, $idA){
