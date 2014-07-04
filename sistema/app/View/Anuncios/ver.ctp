@@ -8,6 +8,9 @@
 			<td>
 				<img src="<? echo $this->Html->url("/img/fotos/".$i["id"].".jpg") ?>" class="img-thumbnail" width="200" />
 			</td>
+		</tr>
+		<? } ?>
+		<tr>
 			<? 
 			/* Verifica se existe um vídeo para o anúncio, e exibe na tela usando um iframe */
 			if($a["Video"]["id"] != null){
@@ -20,5 +23,4 @@
 			</td>
 			<? } ?>
 		</tr>
-		<? } ?>
 	</table>

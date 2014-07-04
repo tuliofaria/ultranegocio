@@ -35,8 +35,23 @@
 
 <? echo $this->Form->end() ?>
 
-<? 
 
+<?php
+
+
+		echo $this->Form->create('Anuncio', array('action' => 'semVideo')); ?>
+
+		<div class="form-group">
+		<?php echo $this->Form->submit('Prosseguir sem video', array(
+			'div' => 'col col-md-9 col-md-offset-3',
+			'class' => 'btn btn-default'
+		)); ?>
+		</div>
+
+		<? echo $this->Form->end() ?>
+
+
+<? 
 /* Se foi feita pesquisa de vídeos, exibe a lista com o resultado da pesquisa */
 if(isset($videos)){
 
