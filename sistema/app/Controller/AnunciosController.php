@@ -37,8 +37,14 @@ class AnunciosController extends AppController {
 	/* Adicionar um vídeo ao anúncio */
 	public function vender_video($id){
 		$dados = array();
-			
+
 		$this->set("anuncioId", $id);
+
+		if($this->request->is("post") && empty($this->data["Anuncio"]["pesquisar"]) && !isset($this->data["Anuncio"]["videos"])){
+
+			/* Usuário não quer inserir vídeos. Redireciona para a página de salvar fotos */
+			$this->redirect("/vender/anuncios/fotos/".$id);
+		}
 
 		if($this->request->is("post") && isset($this->data["Anuncio"]["pesquisar"])){
 
@@ -64,17 +70,6 @@ class AnunciosController extends AppController {
 
 			/* Redireciona para a página de salvar fotos */
 			$this->redirect("/vender/anuncios/fotos/".$id);
-		}
-	}
-
-	public function vender_semVideo(){
-		if($this->request->is("post")){
-			$this->request->data["Anuncio"]["usuario_id"] = $this->Session->read("usuario.Usuario.id");
-			if($this->Anuncio->save($this->data)){
-
-				/* Inserir imagem sem video */
-				$this->redirect("/vender/anuncios/fotos/".$anuncioId);
-			}
 		}
 	}
 

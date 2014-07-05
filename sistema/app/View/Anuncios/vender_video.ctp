@@ -26,11 +26,15 @@
 			'class' => 'btn btn-default'
 		)); ?>
 	</div>
+
+	
 	
 	<iframe id="player" type="text/html" width="640" height="360"
          src="https://www.youtube.com/embed/Xjn3XZ6IA_0" name="search_iframe"
          frameborder="0" allowfullscreen>
     </iframe>
+
+
 
 
 <? echo $this->Form->end() ?>
@@ -82,15 +86,15 @@ echo $this->Form->radio("videos", $videos) ?>
 	),
 	'class' => 'well form-horizontal',
 	'enctype'=>'multipart/form-data',
-	'action' => 'semVideo'
+	
 ));
 ?>
+	 <div class="form-group">
+		<?php echo $this->Form->submit('Prosseguir sem video', array(
+			'div' => 'col col-md-9 col-md-offset-3',
+			'class' => 'btn btn-default'
+		)); ?>
+	</div>
+ 
 
-<div class="form-group">
-<?php echo $this->Form->submit('Prosseguir sem video', array(
-	'div' => 'col col-md-9 col-md-offset-3',
-	'class' => 'btn btn-default'
-)); ?>
-</div>
-
-<? echo $this->Form->end() ?>
+<? echo $this->Form->end() ?> 
