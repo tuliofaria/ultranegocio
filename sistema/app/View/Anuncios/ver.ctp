@@ -1,5 +1,6 @@
 <h2><? echo $a["Anuncio"]["titulo"] ?></h2>
 <p><? echo $a["Anuncio"]["descricao"] ?></p>
+<p><? echo $a["Anuncio"]["preco"] ?> reais</p>
 
 	<table class="table">
 		<? 
