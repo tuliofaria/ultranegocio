@@ -641,3 +641,308 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
+2014-06-20 23:44:51 Debug: Notice (8): Undefined variable: View in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 160]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-06-20 23:44:51 Debug: Notice (8): Trying to get property of non-object in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper.php, line 175]
+Trace:
+Helper::__construct() - CORE\Cake\View\Helper.php, line 175
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-06-20 23:44:51 Debug: Notice (8): Trying to get property of non-object in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 161]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 161
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:09:13 Debug: Notice (8): Undefined variable: View in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 160]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:09:13 Debug: Notice (8): Trying to get property of non-object in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper.php, line 175]
+Trace:
+Helper::__construct() - CORE\Cake\View\Helper.php, line 175
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:09:13 Debug: Notice (8): Trying to get property of non-object in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 161]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 161
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:11:40 Debug: Notice (8): Undefined variable: View in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 160]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+SitemapService::generate() - APP\Model\SitemapService.php, line 7
+SitemapController::index() - APP\Controller\SitemapController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:11:40 Debug: Notice (8): Trying to get property of non-object in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper.php, line 175]
+Trace:
+Helper::__construct() - CORE\Cake\View\Helper.php, line 175
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+SitemapService::generate() - APP\Model\SitemapService.php, line 7
+SitemapController::index() - APP\Controller\SitemapController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:11:40 Debug: Notice (8): Trying to get property of non-object in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 161]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 161
+SitemapService::generate() - APP\Model\SitemapService.php, line 7
+SitemapController::index() - APP\Controller\SitemapController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:01:26 Debug: Notice (8): Undefined variable: codePagSeguro in [C:\wamp\www\ultranegocio\sistema\app\Controller\DestaqueController.php, line 16]
+Trace:
+DestaqueController::recebeid() - APP\Controller\DestaqueController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined variable: id in [C:\wamp\www\ultranegocio\sistema\app\Controller\AnunciosController.php, line 33]
+Trace:
+AnunciosController::vender_novo() - APP\Controller\AnunciosController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 14]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 15]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 15
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 18]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 18
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 21]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 21
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 23]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 24]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 24
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 34]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 44]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 44
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined variable: id in [C:\wamp\www\ultranegocio\sistema\app\Controller\AnunciosController.php, line 33]
+Trace:
+AnunciosController::vender_novo() - APP\Controller\AnunciosController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 14]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 15]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 15
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 18]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 18
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 21]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 21
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 23]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 24]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 24
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 34]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Debug: Notice (8): Undefined index: Anuncio in [C:\wamp\www\ultranegocio\sistema\app\View\Anuncios\vender_novo.ctp, line 44]
+Trace:
+include - APP\View\Anuncios\vender_novo.ctp, line 44
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

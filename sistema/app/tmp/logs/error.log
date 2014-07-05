@@ -6299,3 +6299,477 @@ Request URL: /ultranegocio/sistema/js/bootstrap.min.js
 Stack Trace:
 #0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-06-20 22:33:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 22:33:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 22:33:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 22:33:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 23:44:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 23:44:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 23:44:51 Warning: Warning (4096): Argument 1 passed to HtmlHelper::__construct() must be an instance of View, none given, called in C:\wamp\www\ultranegocio\sistema\app\Model\PagSeguroService.php on line 20 and defined in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 159]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 159
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-06-20 23:44:51 Warning: Warning (4096): Argument 1 passed to Helper::__construct() must be an instance of View, null given, called in C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php on line 160 and defined in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper.php, line 173]
+Trace:
+Helper::__construct() - CORE\Cake\View\Helper.php, line 173
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-01 23:44:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-01 23:45:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-01 23:47:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:06:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:06:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:07:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:08:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:08:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:08:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:08:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:08:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:08:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:08:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:09:13 Warning: Warning (4096): Argument 1 passed to HtmlHelper::__construct() must be an instance of View, none given, called in C:\wamp\www\ultranegocio\sistema\app\Model\PagSeguroService.php on line 20 and defined in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 159]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 159
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:09:13 Warning: Warning (4096): Argument 1 passed to Helper::__construct() must be an instance of View, null given, called in C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php on line 160 and defined in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper.php, line 173]
+Trace:
+Helper::__construct() - CORE\Cake\View\Helper.php, line 173
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+PagSeguroService::efetuarPagamento() - APP\Model\PagSeguroService.php, line 20
+DestaqueController::vender_novo() - APP\Controller\DestaqueController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:09:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:10:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:10:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:10:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:10:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:10:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/jquery.min.map
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:10:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:10:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/jquery.min.map
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:11:40 Warning: Warning (4096): Argument 1 passed to HtmlHelper::__construct() must be an instance of View, none given, called in C:\wamp\www\ultranegocio\sistema\app\Model\SitemapService.php on line 7 and defined in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php, line 159]
+Trace:
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 159
+SitemapService::generate() - APP\Model\SitemapService.php, line 7
+SitemapController::index() - APP\Controller\SitemapController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:11:40 Warning: Warning (4096): Argument 1 passed to Helper::__construct() must be an instance of View, null given, called in C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper\HtmlHelper.php on line 160 and defined in [C:\wamp\www\ultranegocio\sistema\lib\Cake\View\Helper.php, line 173]
+Trace:
+Helper::__construct() - CORE\Cake\View\Helper.php, line 173
+HtmlHelper::__construct() - CORE\Cake\View\Helper\HtmlHelper.php, line 160
+SitemapService::generate() - APP\Model\SitemapService.php, line 7
+SitemapController::index() - APP\Controller\SitemapController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 16:11:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 16:11:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/jquery.min.map
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 18:01:26 Warning: Warning (2): Missing argument 1 for DestaqueController::recebeid() in [C:\wamp\www\ultranegocio\sistema\app\Controller\DestaqueController.php, line 13]
+Trace:
+DestaqueController::recebeid() - APP\Controller\DestaqueController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:05:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 18:05:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 18:06:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 18:06:46 Warning: Warning (2): Missing argument 1 for AnunciosController::vender_novo() in [C:\wamp\www\ultranegocio\sistema\app\Controller\AnunciosController.php, line 26]
+Trace:
+AnunciosController::vender_novo() - APP\Controller\AnunciosController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 18:06:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 18:06:56 Warning: Warning (2): Missing argument 1 for AnunciosController::vender_novo() in [C:\wamp\www\ultranegocio\sistema\app\Controller\AnunciosController.php, line 26]
+Trace:
+AnunciosController::vender_novo() - APP\Controller\AnunciosController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 18:06:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 C:\wamp\www\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

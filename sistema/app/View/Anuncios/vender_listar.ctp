@@ -1,5 +1,5 @@
 <h2>Anuncios</h2>
-
+<p><a class="btn btn-lg btn-info" href="<? echo $this->Html->url("/vender/anuncios/novo") ?>">Novo Anuncio</a></p>
 <? if(count($anuncios)==0){ ?>
 	<p class="alert alert-info">Nenhum anuncio feito até o momento.</p>
 <? }else{ ?>
