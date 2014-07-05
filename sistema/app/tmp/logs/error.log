@@ -1512,3 +1512,681 @@ Request URL: /ultranegocio/sistema/js/bootstrap.min.js
 Stack Trace:
 #0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-07-05 12:11:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:11:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:14:47 Error: [ReflectionException] Class CategoriasController does not have a constructor, so you cannot pass any constructor arguments
+Request URL: /ultranegocio/sistema/admin/categorias
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(241): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(156): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 12:14:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:15:03 Error: [MissingTableException] Table categorias for model Categoria was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categorias',
+  'class' => 'Categoria',
+  'ds' => 'default',
+)
+Request URL: /ultranegocio/sistema/admin/categorias
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Model.php(3501): Model->setSource('categorias')
+#1 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#2 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#3 D:\xampp\htdocs\ultranegocio\sistema\app\Controller\CategoriasController.php(6): Model->find('all')
+#4 [internal function]: CategoriasController->admin_index()
+#5 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#6 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#8 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-07-05 12:15:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:15:25 Error: [MissingViewException] View file "D:\xampp\htdocs\ultranegocio\sistema\app\View\Categorias\admin_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\ultranegocio\\sistema\\app\\View\\Categorias\\admin_index.ctp',
+)
+Request URL: /ultranegocio/sistema/admin/categorias
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#4 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-05 12:15:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:15:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:16:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:18:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:19:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:19:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:19:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:20:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:20:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /ultranegocio/sistema/admin/categorias/nova
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ul...', Array)
+#2 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ul...')
+#3 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Model.php(1834): DboSource->create(Object(AppModel), Array, Array)
+#4 D:\xampp\htdocs\ultranegocio\sistema\app\Controller\CategoriasController.php(10): Model->save(Array)
+#5 [internal function]: CategoriasController->admin_nova()
+#6 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#7 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#9 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-05 12:20:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:21:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:24:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:25:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generateTreeList' at line 1
+Request URL: /ultranegocio/sistema/admin/categorias/
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('generateTreeLis...', Array)
+#2 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('generateTreeLis...', Array, Array)
+#3 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('generateTreeLis...', Array, Array)
+#4 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Model.php(800): DboSource->query('generateTreeLis...', Array, Object(Categoria))
+#5 D:\xampp\htdocs\ultranegocio\sistema\app\Controller\CategoriasController.php(7): Model->__call('generateTreeLis...', Array)
+#6 D:\xampp\htdocs\ultranegocio\sistema\app\Controller\CategoriasController.php(7): Categoria->generateTreeList()
+#7 [internal function]: CategoriasController->admin_index()
+#8 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#9 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#11 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-05 12:25:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:25:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generateTreeList' at line 1
+Request URL: /ultranegocio/sistema/admin/categorias/
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('generateTreeLis...', Array)
+#2 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('generateTreeLis...', Array, Array)
+#3 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('generateTreeLis...', Array, Array)
+#4 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Model\Model.php(800): DboSource->query('generateTreeLis...', Array, Object(Categoria))
+#5 D:\xampp\htdocs\ultranegocio\sistema\app\Controller\CategoriasController.php(7): Model->__call('generateTreeLis...', Array)
+#6 D:\xampp\htdocs\ultranegocio\sistema\app\Controller\CategoriasController.php(7): Categoria->generateTreeList(NULL, NULL, NULL, '--')
+#7 [internal function]: CategoriasController->admin_index()
+#8 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#9 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#11 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-05 12:25:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:26:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:27:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:27:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:28:26 Error: Fatal Error (1): Call to undefined function generateTreeList() in [D:\xampp\htdocs\ultranegocio\sistema\app\Controller\CategoriasController.php, line 11]
+2014-07-05 12:28:26 Error: [FatalErrorException] Call to undefined function generateTreeList()
+Request URL: /ultranegocio/sistema/admin/categorias/nova
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\\xampp\\htdocs...', 11, Array)
+#2 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\\xampp\\htdocs...', 11, Array)
+#3 D:\xampp\htdocs\ultranegocio\sistema\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 12:28:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:28:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:29:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:29:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:30:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:30:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:31:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:31:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:31:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:32:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:32:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:32:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:35:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:36:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:06 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:06 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:06 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:17 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:17 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:37:17 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:38:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:38:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:38:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 12:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ultranegocio/sistema/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\ultranegocio\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -149,7 +149,7 @@
  *	`manager_index()` and `/manager/controller/index`
  *
  */
-	Configure::write('Routing.prefixes', array('vender'));
+	Configure::write('Routing.prefixes', array('vender', 'admin'));
 
 /**
  * Turn off all caching application-wide.
