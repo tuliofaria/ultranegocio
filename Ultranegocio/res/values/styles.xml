@@ -1,0 +1,37 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="Theme.ultraNegocioTheme" parent="Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/Theme.ultraNegocioTheme.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.ultraNegocioTheme.ActionBar</item>
+    </style>
+
+    <style name="Widget.ultraNegocioTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">#4169E1</item>
+        <item name="background">#4169E1</item>
+    </style>
+
+    <style name="Theme.ultraNegocioTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">#4169E1</item>
+        <item name="android:titleTextStyle">@style/Theme.ultraNegocioTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="Theme.ultraNegocioTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>
