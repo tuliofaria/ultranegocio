@@ -15,7 +15,7 @@
 			"nome"=>array(
 				"nomeNaoVazio"=>array(
 					"rule"=>"notEmpty",
-					"message"=>"Por favor, informe seu nome."
+					"message"=>"Por favor, informe seu nome2."
 				)
 			),
 			"senha"=>array(
