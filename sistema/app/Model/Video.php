@@ -40,10 +40,10 @@
 			  			}
 			  		}
 			 	} catch (Google_ServiceException $e) {
-			    $htmlBody .= sprintf('<p>A service error occurred: <code>%s</code></p>',
+			    	echo('<p>A service error occurred: <code>%s</code></p>',
 			      htmlspecialchars($e->getMessage()));
 			  	} catch (Google_Exception $e) {
-			    $htmlBody .= sprintf('<p>An client error occurred: <code>%s</code></p>',
+			    	echo('<p>An client error occurred: <code>%s</code></p>',
 			      htmlspecialchars($e->getMessage()));
 		  	}
 		  return $listaVideos;
