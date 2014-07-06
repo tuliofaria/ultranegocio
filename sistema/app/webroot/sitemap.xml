@@ -28,4 +28,24 @@
                             <changefreq>weekly</changefreq>
                             <priority>0.8</priority>
                         </url>
+                    
+                        <url>
+                            <loc>http://localhost/ultranegocio/sistema/anuncios/ver/4</loc>
+                            <image:image>
+                                         <image:loc>http://localhost/ultranegocio/sistema/img/fotos/4.jpg</image:loc>
+                                         <image:title>Foto2</image:title>
+                                         <image:caption>foto2</image:caption>
+                                         </image:image> 
+                            <lastmod>2014-07-06 13:34:00</lastmod>
+                            <changefreq>weekly</changefreq>
+                            <priority>0.8</priority>
+                        </url>
+                    
+                        <url>
+                            <loc>http://localhost/ultranegocio/sistema/anuncios/ver/5</loc>
+                            
+                            <lastmod>2014-07-06 13:40:58</lastmod>
+                            <changefreq>weekly</changefreq>
+                            <priority>0.8</priority>
+                        </url>
                     </urlset>

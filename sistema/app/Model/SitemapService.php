@@ -4,6 +4,10 @@ class SitemapService {
     public function generate() {
         App::import('model','Anuncio');
         App::import('Helper', 'Html');
+        $filename = $arq = WWW_ROOT."sitemap.xml";
+        if(file_exists($filename)){
+            unlink($filename);
+        }
         $html = new HtmlHelper();        
         $anuncio = new Anuncio();
         $anuncios = $anuncio->find('all');        
@@ -33,7 +37,6 @@ class SitemapService {
                     ";
         }
         $anuncio_xml .= "</urlset>";
-        
         $arq = WWW_ROOT."sitemap.xml";
         file_put_contents($arq, $anuncio_xml, FILE_TEXT);
         unset($arq);
