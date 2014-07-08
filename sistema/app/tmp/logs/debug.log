@@ -1,0 +1,12 @@
+2014-07-05 14:36:19 Debug: Notice (8): Undefined variable: channel in [C:\xampp\htdocs\ultranegocio\sistema\app\View\Layouts\rss\default.ctp, line 11]
+Trace:
+include - APP\View\Layouts\rss\default.ctp, line 11
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::renderLayout() - CORE\Cake\View\View.php, line 542
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

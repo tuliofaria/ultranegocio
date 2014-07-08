@@ -1,10 +1,28 @@
 <?php
 class AnunciosController extends AppController {
+	//rss
+	public $components = array('RequestHandler');
+	public $helpers = array('Text', 'Html');
+
 	public $uses = array("Anuncio", "Imagem");
 
 	public function index(){
-		$this->set("anuncios", $this->paginate("Anuncio"));
+		if ($this->RequestHandler->isRss() ) {
+	        $anuncios = $this->Anuncio->find(
+	            'all',
+	            array('limit' => 20, 'order' => 'Anuncio.created DESC')
+	        );
+	        $this->set(compact('anuncios'));
+	    }else{
+	        $this->paginate['Anuncio'] = array(
+	        	'order' => 'Anuncio.created DESC',
+	        	'limit' => 10
+	    	);
+			$anuncios = $this->paginate();
+			$this->set(compact('anuncios'));
+		}
 	}
+	
 	public function ver($id){
 		$this->set("a", $this->Anuncio->findById($id));
 	}
