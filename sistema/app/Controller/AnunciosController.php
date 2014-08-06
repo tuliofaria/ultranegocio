@@ -5,9 +5,26 @@ class AnunciosController extends AppController {
 	/* Variável que define quais classes Modelo o Controller irá acessar */
 	public $uses = array("Anuncio", "Imagem", "Video");
 
-    public function index() {
-        $this->set("anuncios", $this->paginate("Anuncio"));
-    }
+	//rss
+	public $components = array('RequestHandler');
+	public $helpers = array('Text', 'Html');
+
+    public function index(){
+		if ($this->RequestHandler->isRss() ) {
+	        $anuncios = $this->Anuncio->find(
+	            'all',
+	            array('limit' => 20, 'order' => 'Anuncio.created DESC')
+	        );
+	        $this->set(compact('anuncios'));
+	    }else{
+	        $this->paginate['Anuncio'] = array(
+	        	'order' => 'Anuncio.created DESC',
+	        	'limit' => 10
+	    	);
+			$anuncios = $this->paginate();
+			$this->set(compact('anuncios'));
+		}
+	}
 
     public function ver($id) {
         $anuncio = $this->Anuncio->findById($id);

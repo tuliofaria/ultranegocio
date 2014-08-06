@@ -14,4 +14,6 @@
 			<td><a href="<? echo $this->Html->url("/anuncios/ver/".$a["Anuncio"]["id"]) ?>" title="<? echo $a["Anuncio"]["titulo"] ?>">Ver anuncio</a></td></tr>
 		<? } ?>
 	</table>
+	<? echo $this->Html->link('Ver Feed RSS', array('action'=>'index', 
+'ext'=>'rss')); ?>
 <? } ?>
