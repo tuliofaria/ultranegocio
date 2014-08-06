@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ultranegócio</string>
+    <string name="sign_in">Sign in</string>
+    <string name="indentify_yourself">Please identify yourself</string>
+    <string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="login">Login</string>
+	<string name="new_user">New User</string>
+	<string name="name">Name</string>
+	<string name="confirm_password">Confirm password</string>
+	<string name="confirm">Sign in</string>
+	<string name="enter_name">Please, fill in your name</string>
+	<string name="enter_password">Please, fill in your password</string>
+	<string name="anouncement">Announcement</string>
+	<string name="title">Title</string>
+	<string name="description">Description</string>
+	<string name="price">Price</string>
+	<string name="save">Salvar</string>
+</resources>

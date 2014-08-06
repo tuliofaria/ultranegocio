@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ultranegócio</string>
+	<string name="sign_in">Fazer cadastro</string>
+	<string name="indentify_yourself">Por favor identifique-se</string>
+	<string name="email">Email</string>
+	<string name="password">Senha</string>
+	<string name="login">Login</string>
+	<string name="new_user">Novo Usuário</string>
+	<string name="name">Nome</string>
+	<string name="confirm_password">Confirmar senha</string>
+	<string name="confirm">Cadastrar</string>
+	<string name="enter_name">Por favor, preencha o nome</string>
+	<string name="enter_password">Por favor, preencha a senha</string>
+	<string name="anouncement">Anúncio</string>
+	<string name="title">Título</string>
+	<string name="description">Descrição</string>
+	<string name="price">Preço</string>
+	<string name="save">Save</string>
+</resources>
