@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+                    <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9' xmlns:image='http://www.google.com/schemas/sitemap-image/1.1'>                
+                    
+                        <url>
+                            <loc>http://localhost/ultranegocio/sistema/anuncios/ver/1</loc>
+                            <image:image>
+                                         <image:loc>http://localhost/ultranegocio/sistema/img/fotos/1.jpg</image:loc>
+                                         <image:title>Foto1</image:title>
+                                         <image:caption>Foto1 | ultranegocio</image:caption>
+                                         </image:image> 
+                            <lastmod>2014-06-20 21:35:09</lastmod>
+                            <changefreq>weekly</changefreq>
+                            <priority>0.8</priority>
+                        </url>
+                    
+                        <url>
+                            <loc>http://localhost/ultranegocio/sistema/anuncios/ver/3</loc>
+                            <image:image>
+                                         <image:loc>http://localhost/ultranegocio/sistema/img/fotos/2.jpg</image:loc>
+                                         <image:title>Foto1</image:title>
+                                         <image:caption>Foto1</image:caption>
+                                         </image:image> <image:image>
+                                         <image:loc>http://localhost/ultranegocio/sistema/img/fotos/3.jpg</image:loc>
+                                         <image:title>Foto2</image:title>
+                                         <image:caption>Foto2</image:caption>
+                                         </image:image> 
+                            <lastmod>2014-06-20 21:36:58</lastmod>
+                            <changefreq>weekly</changefreq>
+                            <priority>0.8</priority>
+                        </url>
+                    
+                        <url>
+                            <loc>http://localhost/ultranegocio/sistema/anuncios/ver/4</loc>
+                            <image:image>
+                                         <image:loc>http://localhost/ultranegocio/sistema/img/fotos/4.jpg</image:loc>
+                                         <image:title>Foto2</image:title>
+                                         <image:caption>foto2</image:caption>
+                                         </image:image> 
+                            <lastmod>2014-07-06 13:34:00</lastmod>
+                            <changefreq>weekly</changefreq>
+                            <priority>0.8</priority>
+                        </url>
+                    
+                        <url>
+                            <loc>http://localhost/ultranegocio/sistema/anuncios/ver/5</loc>
+                            
+                            <lastmod>2014-07-06 13:40:58</lastmod>
+                            <changefreq>weekly</changefreq>
+                            <priority>0.8</priority>
+                        </url>
+                    </urlset>

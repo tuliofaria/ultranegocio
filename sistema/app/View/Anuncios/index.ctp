@@ -7,9 +7,11 @@
 		<? foreach($anuncios as $a){ ?>
 		<tr>
 			<td>
+                            <a href="<? echo $this->Html->url("/anuncios/ver/".$a["Anuncio"]["id"]) ?>" title="<? echo $a["Anuncio"]["titulo"] ?>">
 				<img src="<? echo $this->Html->url("/img/fotos/".$a["Imagem"][0]["id"].".jpg") ?>" class="img-thumbnail" width="200" />
+                            </a>
 			</td>
-			<td><a href="<? echo $this->Html->url("/anuncios/ver/".$a["Anuncio"]["id"]) ?>">Ver anuncio</a></tr>
+			<td><a href="<? echo $this->Html->url("/anuncios/ver/".$a["Anuncio"]["id"]) ?>" title="<? echo $a["Anuncio"]["titulo"] ?>">Ver anuncio</a></td></tr>
 		<? } ?>
 	</table>
 <? } ?>
