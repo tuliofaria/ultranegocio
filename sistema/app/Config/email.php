@@ -48,12 +48,12 @@ class EmailConfig {
 
 	public $smtp = array(
 		'transport' => 'Smtp',
-		'from' => array('tuliofaria@gmail.com' => 'Tulio Faria'),
-		'host' => 'smtp.gmail.com',
+		'from' => array('ultranegocio@outlook.com' => 'ultranegocio.com'),
+		'host' => 'smtp.live.com',
 		'port' => 587,
 		'timeout' => 90,
-		'username' => 'tuliofaria@gmail.com',
-		'password' => '',
+		'username' => 'ultranegocio@outlook.com',
+		'password' => 'negocio1',
 		'client' => null,
 		'log' => true,
 		'tls'=>true,

@@ -39,12 +39,27 @@
         <?php
         if(isset($a["Imagem"]) && count($a["Imagem"]) > 1){
         ?>
-            <a data-slide='prev' href='#myCarousel' class='left carousel-control'>â€¹</a>
-            <a data-slide='next' href='#myCarousel' class='right carousel-control'>â€º</a>
+            <a data-slide='prev' href='#myCarousel' class='left carousel-control'>‹</a>
+            <a data-slide='next' href='#myCarousel' class='right carousel-control'>›</a>
         <?php
         }
         ?>
     </div>
+
+
+    <? 
+    /* Verifica se existe um vídeo para o anúncio, e exibe na tela usando um iframe */
+    if($a["Video"]["id"] != null){
+     ?>
+    <div>
+        <iframe id="player" type="text/html" width="640" height="360"
+ src="https://www.youtube.com/embed/<?echo $a["Video"]["url"]?>" name="search_iframe"
+ frameborder="0" allowfullscreen>
+  </iframe>
+    </div>
+    <? } ?>
+
+
     <div class='infoAnuncio'>
         <h3>Dados do anunciante</h3>
         <p>
@@ -54,14 +69,14 @@
         </p>
         <h3>Detalhes do anuncio</h3>
         <p>
-            PreÃ§o: <? echo $a["Anuncio"]["preco"] ?>
+            Preço: <? echo $a["Anuncio"]["preco"] ?>
             <br/>
             Peso: <? echo $a["Anuncio"]["peso"] ?>
         </p>
-        <h3>LocalizaÃ§Ã£o</h3>
+        <h3>Localização</h3>
         <? echo $a["Anuncio"]["cep_origem"] ?>
         <div class="descricaoAnuncio">
-            <h3>DescriÃ§Ã£o do anuncio</h3>
+            <h3>Descrição do anuncio</h3>
             <? echo $a["Anuncio"]["descricao"] ?>
         </div>
     </div>

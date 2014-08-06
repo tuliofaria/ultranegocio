@@ -3,4 +3,5 @@
 
 		public $hasMany = array("Imagem");
 		public $belongsTo = array("Usuario");
+		public $hasOne = "Video";
 	}
