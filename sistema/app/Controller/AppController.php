@@ -1,4 +1,5 @@
 <?php
+	session_start();
 /**
  * Application level Controller
  *
@@ -42,11 +43,10 @@ class AppController extends Controller {
 
 	public function beforeFilter(){
 		if($this->params["prefix"]=="vender"){
-			// checar se ele está logado
-			if(!$this->Session->check("usuario")){
-				$this->Session->write("redir", $this->request->url);
-				$this->redirect("/usuarios/entrar");
-			}
+				if(!$this->Session->check("usuario")){
+					$this->Session->write("redir", $this->request->url);
+					$this->redirect("/usuarios/entrar");
+				}			
 		}
 	}
 }
