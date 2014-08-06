@@ -17,3 +17,6 @@ Alterações já realizadas
 - O banco está com o sql no arquivo schema.sql
 - Já é possível visualizar os anúncios, simples
 - Já foi criado a tabela para destaques (com campos para o PagSeguro (transaction_id e situação))
+
+Foi realizado o merge de todos os pull-requests realizados até 06/08/2014.
+============
